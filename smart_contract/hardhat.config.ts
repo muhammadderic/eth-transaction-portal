@@ -26,7 +26,7 @@ export default defineConfig({
     },
     hardhatOp: {
       type: "edr-simulated",
-      chainType: "op",
+      chainType: "op", // Simulates Optimism L1+L2 gas rules locally
     },
     sepolia: {
       type: "http",
